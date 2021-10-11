@@ -37,3 +37,5 @@ A: *Go to github.com/SpeedSterKawaii/ read my bio.*
 
 Q: **PC isn't supported exception?**
 A: *Your PC might be out-of-date*.
+
+Edit: https://speedsterkawaii.github.io/speed-softwares.github.io/
