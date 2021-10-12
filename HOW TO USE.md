@@ -1,0 +1,22 @@
+# How to Use Watermelon LBI?
+
+- Step 1: Download the Project from https://github.com/SpeedSterKawaii/WatermelonLBI/
+- Step 2: Use Win.RAR or any Tool to Extract the Package (7Zip,Filmora,SE,WinRAR).
+- Step 3: Open WatermelonLBI.sln, if a .dll is in any of the folders, please delete it.
+- Step 4: Open DllMain.cpp, and modify the strings and messages if you would like to.
+- Step 5: Open Roblox.hpp and update all of the addresses, calling conventions, offsets.
+- Step 6: Update the ScriptC0ntext offset, Roblox Lua state and Gettop (top and base).
+- Step 7: Optional: if you want a custom identity msg, update the identity integers as well.
+- Step 8: Goto Settings.hpp and turn off AUTO_UPDATE since it doesn't currently work right now.
+- Step 9: (if it errors, just set to NULL so it will just return 0.)
+- Step 10: If the message box displays as "Returned NULL", please erase any defines that use 0.
+- Step 11: Change your pipe name, or your fake pipe name. An optional "anti pipe" is as well.
+- Step 12: If the application keeps closing, goto ProcessDLLATTACH and replace break with 0.
+- Step 13: Now, your almost done. Set your compile settings to Release X86 (for best result)
+- Step 14: If you want big .dll file size, re-build inside of Debug X86, and Ctrl + B to run.
+- Step 15: DLL should be placed in the Debug (if you chose) or Release folder (if you chose).
+- Step 16: Open SpeedDLLInjector.exe and Type DLL name and type the Real pipe name (not fake).
+- Step 17: Open Roblox and Click "Inject", wait few seconds depend on sleep time and voilla!
+- Step 18: Enjoy exploiting with speed's new LBI called WatermelonLBI :) enjoy :) :) :D :D :)
+- Step 19: uhhh idk i ran out of words but uhh how are you..? happy haloowen? want watermelon candy?
+- Step 20: delete all the projects u installed for owlhub support no kap try it.
